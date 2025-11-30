@@ -1,19 +1,14 @@
-# CAP4630-Final-project
-Here is my final project for my Intro to AI class
+AI Generated Classical Piano Music
+Team Members: Firas Georges, Moshe Amar, Alexander Akyian, Juan Martinez, Jose Hernandez
 
-30-Second Peaceful Classical Piano Generator
-Group Members: Juan Martinez, Jose Hernandez, Alexander Akyian, Moshe Amar, Firas George
+Project Overview
+Objective: To generate original classical piano music using a Recurrent Neural Network (RNN).
 
-This project is a small generative music system written in Python. It creates a unique, peaceful 30-second classical piano piece
-by randomly combining melody notes and consonant chords, then synthesizing them into audio using digital signal processing (DSP).
+Problem: Music composition is a complex creative task that involves long-term structure and harmony. We are attempting to see if an AI can learn these patterns from MIDI data.
 
-The output is a fully generated .wav file that sounds like a gentle classical piano melody.
+Methodology:
 
-This project demonstrates:
-Rule-based generative AI
-Algorithmic music composition
-Digital signal processing (DSP)
-Randomized musical structure
-Programmatic audio synthesis
-
+Data: MIDI files processed into sequential notes and chords.
+Model: A Stacked Long Short-Term Memory (LSTM) network.
+Evaluation: Various metrics (Accuracy, F1 Score, etc.) and qualitative listening tests.
 
